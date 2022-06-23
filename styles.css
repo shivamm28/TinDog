@@ -1,0 +1,180 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+a{
+  font-family: 'ubuntu',sans-serif;
+}
+p{
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* headings */
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+}
+
+.tagline{
+
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+
+
+/* navbar */
+
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+
+
+/* download buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* title image */
+
+.mobile{
+  width: 60%;
+  transform: rotate(25deg);
+
+}
+
+ /* feature section*/
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+
+.fa-solid{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-solid:hover{
+  color: #ff4c68;
+}
+
+/* testimonials section */
+.carousel-item{
+  background-color: #ef8172;
+}
+
+.testimonials-image{
+  width: 15%;
+  border-radius: 100%;
+}
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+
+
+/*press section*/
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-plan{
+  font-size: 1.5rem;
+}
+.price-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+@media (max-width: 1020px){
+  #title{
+  text-align: center;
+  }
+
+  .mobile{
+    position: static;
+
+    transform: rotate(0);
+    width: 40%;
+    }
+}
+
+
+
+/* footer section */
+
+.social{
+  color: black;
+  margin: 20px 10px;
+
+}
